@@ -1,0 +1,22 @@
+USE lms;
+INSERT INTO users (username, display_name, role_id, email, password, created, last_login) VALUES 
+('jsmith92', 'John Smith', 1, 'john.smith@email.com', 'hashed_pw_001', '2024-01-15 08:30:00', '2024-11-20 14:22:10'),
+('maria_doe', 'Maria Doe', 1, 'maria.doe@email.com', 'hashed_pw_002', '2024-01-18 09:15:00', '2024-11-21 10:05:33'),
+('bwilliams', 'Brian Williams', 1, 'b.williams@email.com', 'hashed_pw_003', '2024-02-03 11:00:00', '2024-10-30 16:48:00'),
+('sarah_j', 'Sarah Johnson', 2, 'sarah.j@email.com', 'hashed_pw_004', '2024-02-10 13:45:00', '2024-11-19 09:30:45'),
+('carlos_m', 'Carlos Martinez', 1, 'carlos.m@email.com', 'hashed_pw_005', '2024-02-14 07:20:00', NULL),
+('emily_rose', 'Emily Rose', 2, 'emily.rose@email.com', 'hashed_pw_006', '2024-03-01 10:00:00', '2024-11-21 08:15:22'),
+('david_k', 'David Kim', 1, 'david.kim@email.com', 'hashed_pw_007', '2024-03-05 14:30:00', '2024-11-18 17:40:11'),
+('priya_n', 'Priya Nair', 1, 'priya.n@email.com', 'hashed_pw_008', '2024-03-12 09:00:00', '2024-11-15 12:00:00'),
+('tom_hanks99', 'Tom Hanks', 1, 'tom.h99@email.com', 'hashed_pw_009', '2024-04-01 08:00:00', '2024-11-20 11:25:00'),
+('lisa_wu', 'Lisa Wu', 2, 'lisa.wu@email.com', 'hashed_pw_010', '2024-04-08 16:00:00', '2024-09-30 08:55:00'),
+('admin_root', 'System Admin', 3, 'admin@lms.com', 'hashed_pw_011', '2024-01-01 00:00:00', '2024-11-21 23:59:00'),
+('james_rt', 'James Rutherford', 2, 'james.rt@email.com', 'hashed_pw_012', '2024-05-20 10:10:00', '2024-11-10 13:33:00'),
+('nadia_v', 'Nadia Vasquez', 1, 'nadia.v@email.com', 'hashed_pw_013', '2024-06-01 11:30:00', NULL),
+('oliver_b', 'Oliver Brown', 1, 'oliver.b@email.com', 'hashed_pw_014', '2024-06-15 09:45:00', '2024-11-17 15:10:55'),
+('mei_ling', 'Mei Ling', 1, 'mei.ling@email.com', 'hashed_pw_015', '2024-07-04 08:30:00', '2024-11-01 07:45:30'),
+('ravi_s', 'Ravi Sharma', 1, 'ravi.s@email.com', 'hashed_pw_016', '2024-07-19 12:00:00', '2024-11-20 09:00:00'),
+('grace_h', 'Grace Hopper', 1, 'grace.h@email.com', 'hashed_pw_017', '2024-08-05 14:00:00', '2024-10-25 16:20:00'),
+('sophia_k', 'Sophia Kim', 1, 'sophia.k@email.com', 'hashed_pw_018', '2024-08-20 11:00:00', '2024-11-15 10:30:00'),
+('james_c', 'James Cameron', 2, 'james.c@email.com', 'hashed_pw_019', '2024-09-01 09:00:00', '2024-11-20 08:00:00'),
+('jessica_d', 'Jessica Davis', 1, 'jessica.d@email.com', 'hashed_pw_020', '2024-09-15 13:00:00', '2024-11-10 14:00:00');

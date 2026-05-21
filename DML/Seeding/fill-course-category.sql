@@ -1,0 +1,16 @@
+INSERT INTO course_category (id, category_name) VALUES
+(1, 'Programming & Development'),
+(2, 'Data Science & Analytics'),
+(3, 'Cybersecurity'),
+(4, 'Cloud Computing'),
+(5, 'Artificial Intelligence & Machine Learning'),
+(6, 'Web Design & UX'),
+(7, 'Database Management'),
+(8, 'Networking & Infrastructure'),
+(9, 'Mobile Development'),
+(10, 'DevOps & Automation'),
+(11, 'Business & Management'),
+(12, 'Digital Marketing'),
+(13, 'Graphic Design'),
+(14, 'Project Management'),
+(15, 'Mathematics & Statistics');
