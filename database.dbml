@@ -1,0 +1,50 @@
+project dibimbing_assignment_23 {
+  name: "Assignment 23"
+  note: "currently nothing"
+}
+
+Table lms.users {
+  id integer [primary key]
+  username varchar [unique, not null]
+  display_name varchar [not null]
+  role_id integer [not null]
+  email varchar [unique, not null]
+  password varchar [not null]
+  created datetime [not null]
+  last_login datetime
+}
+
+Table lms.roles {
+  id integer [primary key]
+  role_name varchar [not null]
+  role_description varchar [default: "Role Description"]
+}
+
+Table lms.enrollments {
+  id integer [primary key]
+  user_id integer [not null]
+  course_id integer [not null]
+  enroll_date datetime [not null]
+  status varchar
+}
+
+Table lms.courses {
+  id integer [primary key]
+  category_id integer [not null]
+  teacher_id integer [not null]
+  course_name varchar [not null, default: "Course Name"]
+  course_description varchar
+  price decimal [not null, default: 0]
+  quota integer [not null, default: 0]
+}
+
+Table lms.course_category {
+  id integer [primary key]
+  category_name varchar [unique, not null, default: "Category Name"]
+}
+
+ref: lms.users.role_id > lms.roles.id
+ref: lms.enrollments.user_id <> lms.users.id
+ref: lms.enrollments.course_id > lms.courses.id
+ref: lms.courses.category_id > lms.course_category.id
+ref: lms.courses.teacher_id > lms.users.id

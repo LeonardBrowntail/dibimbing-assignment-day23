@@ -1,0 +1,126 @@
+{
+  "version": "2.0.0",
+  "darkMode": true,
+  "gridEnabling": false,
+  "currentViewName": null,
+  "defaultView": {
+    "detailLevel": "All",
+    "tablePositions": [
+      {
+        "name": "users",
+        "schemaName": "lms",
+        "x": 0,
+        "y": 50
+      },
+      {
+        "name": "roles",
+        "schemaName": "lms",
+        "x": 305.61776485958615,
+        "y": 145.33824693834464
+      },
+      {
+        "name": "enrollments",
+        "schemaName": "lms",
+        "x": 573.6082466744087,
+        "y": -167.01995684649495
+      },
+      {
+        "name": "courses",
+        "schemaName": "lms",
+        "x": 866.8575439453125,
+        "y": 50
+      },
+      {
+        "name": "course_category",
+        "schemaName": "lms",
+        "x": 0,
+        "y": 388
+      }
+    ],
+    "tableGroupCollapseStates": [],
+    "stickyNoteLayouts": [],
+    "referencePaths": [
+      {
+        "firstFieldNames": [
+          "role_id"
+        ],
+        "firstTableName": "users",
+        "firstSchemaName": "lms",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "id"
+        ],
+        "secondTableName": "roles",
+        "secondSchemaName": "lms",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "user_id"
+        ],
+        "firstTableName": "enrollments",
+        "firstSchemaName": "lms",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "id"
+        ],
+        "secondTableName": "users",
+        "secondSchemaName": "lms",
+        "secondRelation": "*",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "course_id"
+        ],
+        "firstTableName": "enrollments",
+        "firstSchemaName": "lms",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "id"
+        ],
+        "secondTableName": "courses",
+        "secondSchemaName": "lms",
+        "secondRelation": "1",
+        "checkPoints": []
+      },
+      {
+        "firstFieldNames": [
+          "category_id"
+        ],
+        "firstTableName": "courses",
+        "firstSchemaName": "lms",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "id"
+        ],
+        "secondTableName": "course_category",
+        "secondSchemaName": "lms",
+        "secondRelation": "1",
+        "checkPoints": [
+          {
+            "x": 846.8575439453125,
+            "y": 436
+          }
+        ]
+      },
+      {
+        "firstFieldNames": [
+          "course_teacher"
+        ],
+        "firstTableName": "courses",
+        "firstSchemaName": "lms",
+        "firstRelation": "*",
+        "secondFieldNames": [
+          "id"
+        ],
+        "secondTableName": "users",
+        "secondSchemaName": "lms",
+        "secondRelation": "1",
+        "checkPoints": []
+      }
+    ]
+  },
+  "views": {}
+}
