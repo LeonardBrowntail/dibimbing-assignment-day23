@@ -13,4 +13,5 @@ INSERT INTO course_category (id, category_name) VALUES
 (12, 'Digital Marketing'),
 (13, 'Graphic Design'),
 (14, 'Project Management'),
-(15, 'Mathematics & Statistics');
+(15, 'Mathematics & Statistics'),
+(16, 'Game Development');

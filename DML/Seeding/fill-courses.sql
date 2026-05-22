@@ -1,6 +1,6 @@
 INSERT INTO courses (id, category_id, teacher_id, course_name, course_description, price, quota) VALUES
-(1, 1, 80, 'Python for Beginners', 'Learn Python programming from scratch with hands-on projects', 150000, 30),
-(2, 1, 80, 'Advanced JavaScript', 'Deep dive into modern JS, ES6+, async programming and frameworks', 350000, 25),
+(1, 1, 72, 'Python for Beginners', 'Learn Python programming from scratch with hands-on projects', 150000, 30),
+(2, 1, 72, 'Advanced JavaScript', 'Deep dive into modern JS, ES6+, async programming and frameworks', 350000, 25),
 (3, 2, 72, 'Data Analysis with Excel & Python', 'Master data analysis tools and techniques for real-world datasets', 299000, 20),
 (4, 2, 72, 'SQL for Data Science', 'Use SQL to query, analyze and visualize data effectively', 199000, 0),
 (5, 3, 78, 'Ethical Hacking Fundamentals', 'Introduction to penetration testing and cybersecurity concepts', 450000, 15),
