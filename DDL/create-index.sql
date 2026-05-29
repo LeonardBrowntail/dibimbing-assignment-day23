@@ -1,6 +1,6 @@
 -- Users indexing
 CREATE INDEX idx_users_username ON `lms`.users(`username`);
-CREATE INDEX idx_users_display_name ON `lms`.users (`displayName`);
+CREATE INDEX idx_users_display_name ON `lms`.users (`display_name`);
 CREATE INDEX idx_users_email ON `lms`.users(`email`);
 
 -- Enrollments indexing
